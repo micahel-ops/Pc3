@@ -12,25 +12,25 @@ Bienvenido a mi álbum personal. Aquí voy guardando una foto por día.
 
 
 1... 
-![Imagen1](Imagen1.png)
+![imagen_1](imagen_1.png)
 
 2...
-![Imagen2](Imagen2.png)
+![imagen_2](imagen_2.png)
 
 3...
-![Imagen3](Imagen3.png)
+![imagen_3](imagen_3.png)
 
 4...
-![Imagen4](Imagen4.png)
+![imagen_4](imagen_4.png)
 
 5...
-![Imagen5](Imagen5.png)
+![imagen_5](imagen_5.png)
 
 6...
-![Imagen6](Imagen6.png)
+![imagen_6](imagen_6.png)
 
 7...
-![Imagen7](Imagen7.png)
+![imagen_7](imagen_7.png)
 
 8...
 ![imagen_8](imagen_8.png)
