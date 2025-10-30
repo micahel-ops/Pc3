@@ -1,1 +1,23 @@
 teoria
+Principales Funciones Agregadas:
+
+Suma: Calcula la suma total de los valores de un conjunto de datos.
+Promedio: Calcula el valor promedio (media) de un conjunto de datos.
+Conteo: Cuenta cuántos elementos hay en un conjunto de datos. Puede contar todas las filas o solo las no nulas.
+Máximo: Devuelve el valor más alto en un conjunto de datos.
+Mínimo: Devuelve el valor más bajo en un conjunto de datos.
+GROUP BY: Agrupa las filas de acuerdo con una o más columnas, y luego puedes aplicar funciones agregadas sobre esos grupos.
+HAVING: Filtra los resultados de los grupos después de que se han aplicado las funciones agregadas.
+
+
+IN vs EXISTS: Usa IN cuando la subconsulta devuelve pocos resultados; usa EXISTS cuando la subconsulta puede devolver muchos resultados.
+Funciones de Fecha: Son esenciales para segmentar, comparar y analizar datos temporales, pero su uso debe ser eficiente para no impactar negativamente en el rendimiento.
+CAST vs. CONVERT: Usa CAST para conversiones simples y CONVERT cuando necesites un formato específico o detalles más complejos, especialmente en fechas.
+
+Resumen de las Funciones de Cadena más Comunes:
+
+Concatenación: CONCAT()
+Longitud: LEN()
+Extracción de subcadenas: SUBSTRING()
+Cambio de mayúsculas/minúsculas: LOWER(), UPPER()
+Eliminación de espacios: LTRIM(), RTRIM()
