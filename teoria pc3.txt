@@ -1,4 +1,7 @@
 teoria
+
+SEMANA11
+
 Principales Funciones Agregadas:
 
 Sum: Calcula la suma total de los valores de un conjunto de datos.
@@ -8,6 +11,8 @@ Máx: Devuelve el valor más alto en un conjunto de datos.
 Mín: Devuelve el valor más bajo en un conjunto de datos.
 GROUP BY: Agrupa las filas de acuerdo con una o más columnas, y luego puedes aplicar funciones agregadas sobre esos grupos.
 HAVING: Filtra los resultados de los grupos después de que se han aplicado las funciones agregadas.
+
+SEMANA12
 
 
 IN vs EXISTS: Usa IN cuando la subconsulta devuelve pocos resultados; usa EXISTS cuando la subconsulta puede devolver muchos resultados.
@@ -21,3 +26,12 @@ Longitud: LEN()
 Extracción de subcadenas: SUBSTRING()
 Cambio de mayúsculas/minúsculas: LOWER(), UPPER()
 Eliminación de espacios: LTRIM(), RTRIM()
+
+SENMANA13
+
+Transact-SQL
+Función: bloque de código que devuelve un valor; se usa para cálculos o transformaciones dentro de consultas.
+Procedimiento almacenado: conjunto de instrucciones SQL que ejecuta acciones (insertar, actualizar, eliminar); puede recibir parámetros pero no devuelve un valor directo.
+Variable: espacio temporal para guardar datos y usarlos dentro de consultas o procedimientos.
+Condicional IF: permite ejecutar código según una condición (controla el flujo lógico).
+Cursor: estructura que recorre filas una por una; útil para procesar registros individualmente, aunque menos eficiente que las operaciones por conjuntos.
