@@ -35,3 +35,21 @@ Procedimiento almacenado: conjunto de instrucciones SQL que ejecuta acciones (in
 Variable: espacio temporal para guardar datos y usarlos dentro de consultas o procedimientos.
 Condicional IF: permite ejecutar código según una condición (controla el flujo lógico).
 Cursor: estructura que recorre filas una por una; útil para procesar registros individualmente, aunque menos eficiente que las operaciones por conjuntos.
+
+
+SEMANA14
+
+Manejo de Transacciones (Transact-SQL)
+
+Una transacción es un conjunto de operaciones SQL que se ejecutan como una sola unidad de trabajo.
+Su objetivo es mantener la integridad y coherencia de los datos: si una parte falla, todo se revierte.
+Comandos principales
+BEGIN TRANSACTION: inicia la transacción.
+COMMIT: confirma los cambios realizados.
+ROLLBACK: revierte los cambios si ocurre un error.
+Las transacciones garantizan que los datos se mantengan consistentes, sobre todo al realizar múltiples operaciones dependientes, como transferencias de dinero o actualizaciones en cadena.
+Savepoints
+Permiten guardar un punto dentro de una transacción para revertir parcialmente si es necesario:
+SAVE TRANSACTION punto1;
+ROLLBACK TRANSACTION punto1;
+
