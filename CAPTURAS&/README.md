@@ -85,3 +85,6 @@ Bienvenido a mi álbum personal. Aquí voy guardando una foto por día.
 
 25...
 ![imagen_25](imagen_25.png)
+
+26...
+![imagen_26](imagen_26.png)
