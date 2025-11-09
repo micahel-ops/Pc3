@@ -1,0 +1,26 @@
+Existen seis formas de normalización, pero en esta ocasión aprenderemos las tres primeras: Primera Forma Normal (1FN), Segunda Forma Normal (2FN) y Tercera Forma Normal (3FN).
+¿Para qué sirven estas normalizaciones?
+Su objetivo principal es evitar la redundancia de datos, prevenir anomalías en las operaciones (como inserción, actualización o eliminación) y garantizar la integridad de la información dentro de una base de datos.
+
+En mis palabras, puedo explicarlo así:
+Supongamos que tengo una tabla en la forma normal cero, es decir, sin modificaciones. Esta tabla tendría los campos ID, Nombre e Idioma. Por ejemplo, una persona llamada Michael domina dos idiomas. En el campo Idioma pondría ambos idiomas juntos, lo cual genera redundancia y no es correcto.
+
+Para mejorarla, pasamos a la Primera Forma Normal (1FN).
+En esta forma, el ID sería 001, el Nombre “Michael” y en la columna Idioma pondríamos primero “Español”. Luego, otro registro con el mismo ID (001), el mismo Nombre (Michael) y el Idioma “Inglés”.
+Aunque se ve más ordenado, aún hay anomalías, ya que el mismo empleado aparece dos veces en la tabla.
+
+Entonces aplicamos la Segunda Forma Normal (2FN).
+Aquí lo que hacemos es dividir la información en dos tablas:
+
+La primera tabla contiene el ID del empleado y el Nombre.
+
+La segunda tabla contiene el ID del empleado y el Idioma.
+Por ejemplo:
+En la primera tabla: 001 | Michael
+En la segunda: 001 | Español y debajo 001 | Inglés.
+Así evitamos la redundancia y la información queda mejor estructurada.
+
+Por último, pasamos a la Tercera Forma Normal (3FN).
+Esta forma elimina lo que se conoce como dependencia transitiva. En lógica o matemáticas se expresa así:
+Si A determina B y B determina C, entonces A determina C.
+En una base de datos, esto significa que un atributo A determina a otro B, y B determina a C; por lo tanto, A determina indirectamente a C.
