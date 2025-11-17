@@ -53,3 +53,37 @@ Permiten guardar un punto dentro de una transacción para revertir parcialmente 
 SAVE TRANSACTION punto1;
 ROLLBACK TRANSACTION punto1;
 
+SEMANA15
+¿Qué es un trigger?
+
+Un trigger es un procedimiento automático que se ejecuta cuando ocurre un INSERT, UPDATE o DELETE en una tabla o vista.
+Sirve para automatizar procesos, mantener integridad y registrar auditorías.
+Tipos de triggers
+1. AFTER
+Se ejecuta después de la operación.
+Útil para auditorías, cálculos y validaciones finales.
+2. INSTEAD OF
+Se ejecuta en lugar de la operación.
+Muy usado en vistas o cuando quieres reemplazar el comportamiento por defecto.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
