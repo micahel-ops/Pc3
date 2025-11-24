@@ -67,6 +67,28 @@ Se ejecuta en lugar de la operación.
 Muy usado en vistas o cuando quieres reemplazar el comportamiento por defecto.
 
 
+SEMANA16
+Backups y Recuperación
+SQL Server maneja distintos tipos de copias de seguridad, cada una con una función bien marcada:
+El backup completo guarda toda la base, como una fotografía total del sistema.
+El backup diferencial solo almacena lo que cambió desde el último completo, ideal para optimizar tiempo y espacio.
+El backup del log de transacciones captura cada cambio ocurrido; sirve para regresar la base a un punto exacto en el tiempo, minimizando pérdidas.
+También se recalca la necesidad de planificar la frecuencia de estos respaldos y conocer cómo se hace una restauración completa o una recuperación hasta un momento específico usando logs.
+Seguridad y Roles
+SQL Server maneja usuarios, roles y permisos para controlar quién accede y qué puede hacer dentro del sistema.
+La idea central es administrar seguridad con orden:
+—Crear usuarios, agrupar permisos en roles, aplicar políticas de autenticación y usar cifrado para proteger la información sensible.
+Monitoreo y Alertas
+El sistema ofrece herramientas como SQL Server Profiler y Extended Events para observar en tiempo real el comportamiento de la base.
+Además, puedes configurar alertas automáticas para detectar errores críticos o problemas de rendimiento, evitando que los fallos te agarren desprevenido.
+Gestión de Usuarios
+El contenido también explica cómo crear usuarios, asignarles permisos y organizarlos dentro de roles para que la administración sea más limpia y escalable.
+Es la parte más administrativa, pero vital para que nadie ande tocando lo que no debe.
+Diccionario de Datos
+Un punto clave es la importancia de mantener un diccionario de datos actualizado.
+Este documento describe tablas, columnas y estructuras internas de la base. Sin eso, navegar la información es como caminar en un edificio a oscuras.
+
+
 
 
 
